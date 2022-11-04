@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+<div class="Alamring remove">
+  <button class="stop">STOP ALARAM</button><button data-clicks="0" class="snooze">SNOOZE ALARAM</button>
+  <div class="snoozetimer"> 300 </div>
+</div> 
+
+<audio class="alamtone"  loop src="https://audio.jukehost.co.uk/C5be3D3ihK3DWVdNs9pKSeqP6KMG5Lcx"  type="audio/mpeg"></audio>
+
+
+    <div class="newaladiv hide">
+      <div class="newMain">
+   <div class="increase"><button data-s="hour" class="in"><i class="fa-solid fa-arrow-up"></i></button><button data-s="minute" class="in"><i class="fa-solid fa-arrow-up"></i></button><button data-s="second" class="in"><i class="fa-solid fa-arrow-up"></i></button  ><button data-s="amchange" class="am"><i class="fa-solid fa-arrow-up"></i></button></div>
+     
+        <h1>Create Alaram</h1>
+        <div class="Time">
+          <div class="hour alamtime">05</div>
+          <div class="minute alamtime">50</div>
+          <div class="second alamtime">50</div>
+          <div class="amchange alamtime">AM</div>
+        </div>
+        <div class="decrease"><button data-s="hour" class="de"><i class="fa-solid fa-arrow-down"></i></button><button data-s="minute" class="de"><i class="fa-solid fa-arrow-down"></i></button><button data-s="second" class="de"><i class="fa-solid fa-arrow-down"></i></button><button class="am" data-s="amchange"><i class="fa-solid fa-arrow-down"></i></button></div>
+        <div class="Days"><div class="day">SUN</div>
+      <div class="day">MON</div>
+      <div class="day">TUE</div>
+      <div class="day">WED</div>
+      <div class="day">THU</div>
+      <div class="day">FRI</div>
+      <div class="day">SAT</div></div>
+      </div>
+      
+      <button class="createnewAlaram">Save</button>
+      <button class="close"><i class="fa-solid fa-xmark"></i></i></button>
+    </div>
+    <div class="Main">
+      <h1 class="test">Alaram Clock</h1>
+      <div class="Time">
+        <div class="M-hour">5</div>
+        <div class="M-minute">50</div>
+        <div class="M-second">50</div>
+        <div class="M-am">AM</div>
+      </div>
+      <button class="newAlaram">Create New Alaram</button>
+
+      <h2>Upcoming Alarms</h2>
+
+      <div class="Alaramsdiv">
+       
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
